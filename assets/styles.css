@@ -1,0 +1,90 @@
+body{
+    width: 100vw;
+    background:#5ccae8;
+    font-family: tahoma;
+    color: #989898;
+}
+
+#todo-table{
+    position: relative;
+    width: 95%;
+    background: #ffe275;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+form{
+    padding: 10px;
+}
+input{
+    position: relative;
+    top: 61%;
+    left: 20%;
+
+}
+input[type="text"]{
+    width: 30%;
+    padding: 20px;
+    background:#2b2b88;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+button{
+    padding: 20px;
+    width: 20%;
+    float: left;
+    background: #cf2027;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 22%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#list{
+    margin-top: 5%;
+    position: relative;
+    top: 65%;
+    left: 35%;
+}
+li{
+    color:#2b2b88;;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+li:hover{
+    text-decoration: line-through;
+    background: rgba(90, 97, 122, 0.2);
+}
+
+h1{
+    color: aliceblue;
+    background: url(./1200px-BITS_Pilani-Logo.svg.png) no-repeat center;
+    zoom: 0.2;
+    height: 2000px;;
+    margin-bottom: 0;
+    text-indent: -10000px;
+}
